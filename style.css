@@ -1,0 +1,35 @@
+body{
+    background-image:linear-gradient(#f5d14f , #f0a1bb , #f08555 , #f576f1 , #ff6a89 );
+}
+h1{
+  color:red;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 50px;
+
+background-color:cornsilk;
+
+}
+#lable, #confidence{
+    font-family: 'Roboto Slab', serif;
+    
+}
+p{
+    padding-top: 10px;
+    font-size:25px;
+}
+#show_sketch{
+    float: right;
+}
+canvas{
+    border:5px solid white;
+    border-radius: 20px;
+    margin-top: 50px;
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes example {
+    from{box-shadow: 1px 1px 38px #808080;}
+    to {box-shadow: 1px 1px 38px #ffffff;}
+}
